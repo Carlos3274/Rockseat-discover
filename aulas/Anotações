@@ -1,1 +1,14 @@
 "../" -> Volta uma pasta no caminho
+
+CSS -> calc(70% + 20px)
+
+
+    Tamanho (largura x altura) → width | height
+    Conteúdo → content
+    Bordas → border
+    Preenchimento interno → padding
+    Espaços fora da caixa → margin
+
+* {
+   box-sizing: border-box;
+}
