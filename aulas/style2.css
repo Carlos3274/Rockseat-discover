@@ -1,6 +1,8 @@
 .container {
+    
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+
 }
 .box {
   width: 50px;
