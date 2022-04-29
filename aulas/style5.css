@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Water+Brush&display=swap');
+p{
+    text-align: justify;
+    font-family: 'Barlow Condensed', sans-serif;
+    
+}
+h1{
+    text-shadow: 1px 1px 3px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
