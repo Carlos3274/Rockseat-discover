@@ -9,8 +9,8 @@ body{
     grid-template-rows: 80px 1fr 60px;
     grid-template-columns: 1fr 100px;
 
-    /* 1fr -> torna o conteúfo flexível 
-    px fica o tamanho do conteúdo
+    /* 1fr -> torna o conteúdo flexível 
+    px fixa o tamanho do conteúdo
     */
 }
 
