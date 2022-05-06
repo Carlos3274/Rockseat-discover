@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+:root{
+  font-size: 62.5%;
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+  
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box; /* Conte a partir da borda */
+}
+body{
+  display: grid;
+  justify-content: center;
+  background-color: var(--body-bg-color);
+}
+img#foto{
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--purple);
+  border-width: 0.2rem;
+  display: block;
+  padding: 0.2rem;
+  
+}
+
+div#divfoto{
+  padding-top: 20.7rem;
+  margin-bottom: 2.2rem;
+
+}
+
+div#links>p{
+
+  margin-bottom: 1.6rem ;
+  border-style: solid;
+  border-color: var(--purple);
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  border-radius: 0.4rem;
+  border-width: 0.2rem;
+  line-height: 2.4rem;
+
+  width: min-content 32.6rem;
+  height: min-content 4.9rem;
+}
+
+div#links{
+  margin-bottom: 6.8rem;
+}
+
+
+
+p#insta{
+  text-align: center;
+  margin-bottom: 4.5rem;
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: var(--purple);
+  line-height: 2.4rem;
+}
+
+p.link{
+  text-align: center;
+  margin-bottom: 1.6rem;
+  
+  
+  
+  
+}
+p.link>a{
+  text-decoration: none;
+  color: var(--purple);
+
+  
+  
+}
+p.link{
+  padding-bottom: 1.4rem;
+  padding-top: 1.2rem;
+  
+}
+div#social{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20.2rem;
+}
+
+
+
+
+
