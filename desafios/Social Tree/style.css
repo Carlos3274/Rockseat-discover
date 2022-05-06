@@ -11,11 +11,14 @@
   margin: 0;
   box-sizing: border-box; /* Conte a partir da borda */
 }
+
 body{
   display: grid;
   justify-content: center;
   background-color: var(--body-bg-color);
+
 }
+
 img#foto{
   border-radius: 50%;
   border-style: solid;
