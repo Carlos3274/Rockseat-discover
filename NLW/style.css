@@ -4,6 +4,7 @@
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
   --brand-beige: hsl(39, 100%, 97%);
+  --brand-green-light: hsl(148, 23%, 89%);
 
 
   font-size: 62.5%; /* 1rem = 10px */
@@ -77,9 +78,53 @@ button{
 
 .stats{
   width: 32.7rem;
-  height: 47.0rem;
-
-  margin-inline: auto;
+  padding-block: 4rem; /* padding-top e padding-bottom */
+  margin-inline: auto; /* Margin-right e margin-left em auto  */
   background-color: var(--brand-beige);
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 6rem;
+
+  border: 1px solid var(--brand-green-light);
+  border-radius: 0.6rem;
+}
+
+.stat p{
+  margin: 0%;
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+}
+
+.stat h3{
+  font-size: 4.8rem;
+  color: var(--headline);
+  line-height: 130%;
+
+  margin-bottom: 0.4rem;
+}
+
+header img{
+  width: 26.164;   
+  display: block;
+  margin-inline: auto;
+
+  object-position: 0 2rem;
+}
+
+header::before{
+  content: "";
+  width: 100vw;
+  height: 108rem;
+  background-color: var(--brand-green-light);
+
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
