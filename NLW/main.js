@@ -12,5 +12,8 @@ function openMenu() {
 }
 
 function closeMenu() {
+    console.log("caiu")
     document.body.classList.remove('menu-expanded')
+    
 }
+
