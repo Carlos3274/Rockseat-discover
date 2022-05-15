@@ -12,8 +12,20 @@ function openMenu() {
 }
 
 function closeMenu() {
-    
-    document.body.classList.remove('menu-expanded')
-    
+    document.body.classList.remove('menu-expanded')  
 }
+
+
+ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: '700',
+/* Separar as strings com acento agudo `` permite separa-las melhor(TEMPLATE LITERALS ) */
+}).reveal(`
+    #home, 
+    #home img, 
+    #home .stats, 
+    #services,
+    #services header,
+    #services .card`);
 
