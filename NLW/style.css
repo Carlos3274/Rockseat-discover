@@ -44,7 +44,7 @@ body{
 }
 
 .wrapper {
-  width: 37.5rem;
+  width: min(50rem, 100%);
   margin-inline: auto; /*margin-left: auto; margin-right: auto;*/
   padding-inline: 2.4rem;
 }
@@ -160,6 +160,13 @@ nav button {
   cursor: pointer;
 }
 
+nav .menu,
+nav .close-menu {
+  position: fixed;
+}
+
+
+
 /*==== MENU-EXPANDED ==============================================*/
 
 .menu {
@@ -190,7 +197,7 @@ body.menu-expanded .close-menu{
 }
 
 body.menu-expanded .menu{  /* Definição do menu */
-  position: fixed;
+  
   top: 0;
   left: 0;
   background: var(--primary-color);
@@ -338,7 +345,7 @@ body.menu-expanded button path {
 }
 
 #home .stats{
-  width: 32.7rem;
+  width: 100%;
   padding-block: 4rem; /* padding-top e padding-bottom */
   margin-inline: auto; /* Margin-right e margin-left em auto  */
   background-color: var(--brand-beige);
