@@ -41,10 +41,11 @@ ScrollReveal({
 }).reveal(`
     #home, 
     #home img, 
-    #home .stats, 
+    #home .stat,
     #services,
     #services header,
-    #services .card
+    #services .cards,
+    #services .card,
     #about,
     #about header,
     #about .content`);
