@@ -9,8 +9,10 @@
   --primary-color: hsl(170, 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
-  --brand-beige: hsl(39, 100%, 97%);
-  --brand-green-light: hsl(148, 23%, 89%);
+  --brand-beige: hsl(39, 100%, 97%);         /* Brand beige */
+  --brand-green-light: hsl(148, 23%, 89%);   /* Brand light  */
+  --brand-green-hover: hsl(170, 100%, 14%);  /* Brand dark */
+
   --bg-light: hsl(180, 14%, 97%);
 
   --nav-height: 7.2rem;
@@ -99,6 +101,7 @@ section .content p {
   margin-bottom: 6rem;
 
   padding: 1.6rem 3.2rem;
+  width: fit-content;
 
   color: white;
   text-transform: uppercase;
@@ -112,6 +115,12 @@ section .content p {
   gap: 1.6rem;
 
   text-decoration: none;
+
+  transition: background 0.2s;
+}
+
+.button:hover{
+  background-color: var(--brand-green-hover);
 }
 
 /*==== NAVIGATION ==============================================*/
@@ -392,6 +401,8 @@ body.menu-expanded button path {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+
+  margin-bottom: 3.2rem;
 }
 
 #contact ul li {
@@ -399,4 +410,38 @@ body.menu-expanded button path {
   align-items: center;
   flex-direction: row;
   gap: 0.8rem;
+}
+
+/*==== FOOTER ==============================================*/
+
+footer {
+  background-color: var(--primary-color);
+  padding-block: 6rem;
+  text-align: left;
+  color: white;
+}
+
+footer .logo {
+  margin-bottom: 2.4rem;
+  display: inline-block;
+}
+
+footer .logo svg {
+  width: 23.6rem;
+  height: 3.1rem;
+}
+
+footer .logo path {
+  fill: white;
+}
+
+footer p {
+  color: var(--brand-beige);
+  line-height: 2;
+
+  margin-bottom: 3.2rem;
+}
+
+footer .social-links{
+  justify-content: flex-start;
 }
