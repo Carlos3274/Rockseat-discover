@@ -291,7 +291,6 @@ button.open-menu path[stroke*="#00856F"],
   fill: white;
 }
 
-/*==== MENU EXPANDED ==============================================*/
 body.menu-expanded .logo,
 body.menu-expanded button {
   position: relative;
