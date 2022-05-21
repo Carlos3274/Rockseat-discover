@@ -8,7 +8,7 @@
 :root{
 
    /*#00856F Verde original hue 170*/
-  --hue: 290;
+  --hue: 190;
   --primary-color: hsl(var(--hue), 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
@@ -542,5 +542,51 @@ footer .social-links{
       width: 60%;
     }
 
+    nav#navigation .menu ul:nth-child(1) {
+      display: flex;
+      gap: 3.2rem;
+    }
+
+    nav#navigation .menu ul li a {
+      color: var(--primary-color);
+      opacity: 0.7;
+    }
+
+    nav#navigation .menu a.button {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem 2.4rem;
     
-}
+
+      border: 1px solid var(--primary-color);
+      border-radius: 4rem;
+
+      font-weight: 700;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      text-transform: uppercase;
+
+      /* Primary Colors/brand-green */
+
+      color: var(--primary-color);
+      
+    }
+
+    nav#navigation.scroll .menu ul li a {
+      
+      color: var(--brand-green-light);
+      opacity: 0.6;
+    }
+
+    nav#navigation.scroll .menu a.button {
+      border-color: white;
+      color: white;
+    }
+
+    nav#navigation .menu ul li a:hover {
+      opacity: 1;
+      font-weight: 700;
+    }
+} 
