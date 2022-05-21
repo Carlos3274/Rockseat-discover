@@ -585,8 +585,45 @@ footer .social-links{
       color: white;
     }
 
+    nav#navigation .menu ul li a {
+      transition: opacity 0.4s;
+    }
+
     nav#navigation .menu ul li a:hover {
       opacity: 1;
       font-weight: 700;
     }
-} 
+
+    /* mini Animação do nav ------------------ */
+
+    nav#navigation .menu ul li a::after {
+      content: '';
+      width: 0%;
+      height: 2px;
+      background-color: var(--primary-color);
+      
+
+      position: relative;
+      left: -0.5rem;
+      bottom: -2rem;
+
+      display: block;
+
+      transition: 0.2s;
+    }
+
+    nav#navigation.scroll .menu ul li a::after {
+      background-color: white;
+      
+    }  
+
+    nav#navigation .menu ul li a:hover::after{
+      padding-inline: 0.8rem;
+      width: 100%;
+    }
+    /*-------------------------------------- */
+    nav#navigation.scroll .menu ul li a:hover {
+      opacity: 1;
+    }
+
+}   
