@@ -5,7 +5,59 @@ onScroll()
 function onScroll(){
     showNavOnScroll() 
     showBackToTopButtonOnScroll()
+    
+    activateMenuAtCurrentSection(home)
 }
+
+
+
+
+
+
+function activateMenuAtCurrentSection(section) {
+    const targetLine = scrollY + innerHeight / 2
+}
+
+// verificar se a sessão passou da linha
+// quais dados vou precisar?
+const sectionTop = section.offsetTop
+const sectionHeight = section.offsetHeight
+
+const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
+
+// Verificar se a base está abaixo da linha alvo
+// Quais dados vou precisar?
+const sectionEndsAt = sectionTop + sectionHeight
+
+const sectionEndsPassedTargetLine = sectionEndsAt <= targetLine
+
+const sectionBoundaries = sectionTopReachOrPassedTargetLine && !sectionEndsPassedTargetLine
+
+if (sectionBoundaries) {
+    console.log('Estou na seção home')
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function showNavOnScroll() {
 
@@ -49,7 +101,6 @@ ScrollReveal({
     #about,
     #about header,
     #about .content`);
-
 
 
     
