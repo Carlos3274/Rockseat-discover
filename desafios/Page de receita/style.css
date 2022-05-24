@@ -94,6 +94,10 @@ ol {
   margin-bottom: 4rem;
 }
 
+ul li {
+  padding-left: 1rem;
+}
+
 li{
   list-style-position: outside;
   margin: 1rem;
@@ -119,14 +123,13 @@ figure{
 figcaption{
   text-align: end;
   color: #626262;
+  padding-top: 0.8rem;
 }
 
 a {
   font-size: 1.6rem;
   text-decoration: none;
 }
-
-
 
 footer p {
   text-align: center;
