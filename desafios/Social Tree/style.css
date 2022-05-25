@@ -21,9 +21,9 @@ html, body {
 .wrapper {
   display: grid;
 
-  width: 32.6rem;
+  width: 37rem;
   margin-top: 12.6rem;
-  margin-bottom: 15.5rem;
+  
 
   margin-inline: auto;
 
@@ -51,6 +51,8 @@ body {
   margin-inline: auto; 
 
   margin-bottom: 1.5rem;
+
+  
 }
 
 .wrapper p {
@@ -71,6 +73,8 @@ body {
 }
 
 .wrapper ul {
+  
+  
   list-style-type: none;
   text-align: center;
 
@@ -79,6 +83,8 @@ body {
 
 .wrapper #links li {
   
+  
+
   border-color: var(--purple);
   border-style: solid;
   margin-bottom: 1.6rem;
@@ -92,21 +98,29 @@ body {
   padding-top: 1.2rem;
   padding-bottom: 1.3rem;
 
-  padding-inline: auto;
+  padding-inline: auto;  
 }
 
 .wrapper #links li a {
   text-decoration: none;
   font-weight: 600;
 
+  text-align: center;
   color: var(--purple);
+
 }
 
 .wrapper #social {
+ 
+
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   gap: 2.9rem;
+  
+  margin-inline: auto;
 
+  
 
 }
 
