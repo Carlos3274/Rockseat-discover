@@ -194,6 +194,10 @@ footer {
   color: var(--footer);
   width: 100%;
   justify-content: space-between;
+
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
 }
 
 footer ul {
@@ -227,6 +231,8 @@ footer .explore-mais {
   text-align: center;
   align-items: center;
   justify-content: center;
+
+  
 }
 
 footer .explore-mais a {
@@ -236,4 +242,8 @@ footer .explore-mais a {
 
   font-size: 2.4rem;
   line-height: 2.8rem;
+
+  margin-right: 1.4rem;
 }
+
+
