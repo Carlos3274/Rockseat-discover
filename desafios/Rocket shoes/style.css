@@ -174,7 +174,7 @@ nav #bag {
 
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=- FOOTER -=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 
-footer {
+/* footer {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
@@ -184,6 +184,16 @@ footer {
   line-height: 2.1rem;
 
   color: var(--footer);
+} */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  line-height: 2.1rem;
+
+  color: var(--footer);
+  width: 100%;
+  justify-content: space-between;
 }
 
 footer ul {
