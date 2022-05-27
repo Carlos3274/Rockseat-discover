@@ -7,6 +7,7 @@
   box-sizing: border-box;
 
   font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 
 }
 
@@ -39,16 +40,16 @@ body {
 img {
   max-width: 100%;
 }
+
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=- NAVIGATION -=-=-=-=-=-=-=-=-=-=-=-=-=-= */
-
-
-
 nav {
-  
-  
   padding-top: 4.2rem;
   display: flex;
   justify-content: space-evenly;
+
+  margin-bottom: 8.768rem;
+
+  width: 100vw;
 
 }
 
@@ -67,13 +68,16 @@ nav ul a {
   text-decoration: none;
   color: var(--text);
 
-  font-weight: 700;
   font-size: 2.4rem;
   line-height: 2.8rem;
 }
 
 nav .search {
   display: flex;
+  border: 1px solid black;
+
+  width: 22rem;
+  height: 4.5rem;
 }
 
 nav .search input {
@@ -90,3 +94,79 @@ nav .search input::placeholder {
   font-weight: 500;
   line-height: 2.1rem;
 }
+
+nav #bag {
+  height: 3.4rem;
+  width: 3.4rem;
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=- CONTENT -=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+
+
+.content .buy {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 1.532rem;
+  text-align: left;
+
+  margin-left: 11.1rem;
+
+  width: 35.7rem;
+  
+}
+
+.content .buy h1 {
+  font-size: 6rem;
+  line-height: 7rem;
+
+  margin-bottom: 2.1rem;
+  
+}
+
+.content .buy p {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: var(--text-description);
+
+  margin-bottom: 2.1rem;
+}
+
+.content .buy h2 {
+  font-size: 4rem;
+  line-height: 4.7rem;
+
+  margin-bottom: 3rem;
+}
+
+.content .buy .buy-button {
+  width: 27.4rem;
+  height: 9rem;
+  background-color: var(--button);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.content .buy .buy-button a {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: white;
+  background-color: var(--button);
+  text-decoration: none;
+
+}
+
+.content .tenis-images {
+  background-color: var(--main-background);
+}
+
+.content .tenis-images .tenis-ampliado {
+  width: 59.7rem;
+}
+
+
+
+
