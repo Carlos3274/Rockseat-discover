@@ -102,13 +102,17 @@ nav #bag {
 
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=- CONTENT -=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 
-
+.content {
+  display: flex;
+}
 
 .content .buy {
   display: flex;
   flex-direction: column;
 
   padding-top: 1.532rem;
+  margin-right: 7.2rem;
+
   text-align: left;
 
   margin-left: 11.1rem;
@@ -122,6 +126,7 @@ nav #bag {
   line-height: 7rem;
 
   margin-bottom: 2.1rem;
+  
   
 }
 
@@ -161,11 +166,34 @@ nav #bag {
 
 .content .tenis-images {
   background-color: var(--main-background);
+  display: flex;
+  width: 90rem;
+  
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 
-.content .tenis-images .tenis-ampliado {
-  width: 59.7rem;
+.content .tenis-images .tenis-minor {
+  display: flex;
+  
+
+  justify-content: space-around;
 }
+
+/*.content .tenis-images .tenis-ampliado {
+  justify-content: center;
+}
+*/
+/*
+.content .tenis-images .tenis-minor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3.7rem;
+
+}
+*/
 
 
 
