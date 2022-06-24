@@ -21,11 +21,13 @@ img {
   width: 100%;
 }
 
-li {
-  list-style: none;
-}
 
-img .icon {
+li img .icon {
+  display: block;
   width: 24px;
   height: 24px;
+}
+
+nav .sidebar #lista {
+  list-style-type: none;
 }
